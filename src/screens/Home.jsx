@@ -3,12 +3,13 @@ import Footer from "../componentes/Footer";
 
 export default function Home() {
   return (
-    <body className="bg-gray-900 h-screen flex justify-center items-center">
-      <div className="w-full h-full bg-black">
+    <div className="w-full h-screen ">
+
+
 
         <NavBar/>
 
-        <section className="h-[70%] mt-12">
+        <section className="h-[80%] w-full pt-12">
           <div className="flex w-full h-full">
             <div className="w-1/2 flex justify-end">
               <div className="fondo bg-no-repeat bg-center bg-cover flex justify-end lg:mr-2 xl:mr-10 items-center">
@@ -19,7 +20,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="w-1/2 flex lg:pl-10 xl:pl-0 lg:pt-16 xl:pt-10 2xl:pt-5 justify-start lg:mt-[8rem] xl:mt-[3rem]">
+            <div className="w-1/2 flex lg:pl-10 xl:pl-0 lg:pt-16 xl:pt-10 2xl:pt-5 justify-start lg:mt-[3rem] xl:mt-[3rem]">
               <div className="font-bold">
                 <h1 className="text-[2.95rem] lg:text-[2.40rem] xl:lg:text-[3.20rem] 2xl:text-[3.95rem] leading-none text-white">
                   TU
@@ -45,7 +46,7 @@ export default function Home() {
 
         <Footer/>
 
-      </div>
-    </body>
+
+    </div>
   );
 }

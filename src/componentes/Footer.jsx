@@ -1,7 +1,7 @@
 
 export default function Footer() {
   return (
-    <footer className="h-[10%] flex justify-center lg:pb-24">
+    <footer className=" h-[10%] flex justify-center p-">
     <div className="grid grid-cols-3 gap-[8rem]">
       <div className="flex items-center gap-2 text-[#8A0026]">
         <svg

@@ -4,24 +4,24 @@ export default function Ciberseguridad() {
   return (
     <>
       <NavBarServices />
-      <div class="h-screen w-full bg-black">
-      <div class="h-[40%] flex justify-center items-center">
-        <div class="text-center text-[#8A0026] font-extrabold mt-10">
-          <h1 class="uppercase text-6xl">Ciberseguridad</h1>
+      <div className="h-screen w-full bg-black">
+      <div className="h-[40%] flex justify-center items-center">
+        <div className="text-center text-[#8A0026] font-extrabold mt-10">
+          <h1 className="uppercase text-6xl">Ciberseguridad</h1>
         </div>
       </div>
 
-      <div class="h-[60%] grid-cols-2 grid  pl-[4rem]">
+      <div className="h-[60%] grid-cols-2 grid  pl-[4rem]">
 
-        <div class="h-full w-full flex justify-end ">
+        <div className="h-full w-full flex justify-end ">
           <div>
-            <div class="flex items-center">
+            <div className="flex items-center">
               <h1
-                class="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
               >
                 Creacion de infraestructura T.I.
               </h1>
-              <a class="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios8.html">
+              <a className="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios8.html">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -44,13 +44,13 @@ export default function Ciberseguridad() {
               </a>
             </div>
 
-            <div class="flex items-center mt-4">
+            <div className="flex items-center mt-4">
               <h1
-                class="lg:text-xl xl:text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                className="lg:text-xl xl:text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
               >
                 CCTV (Circuito Cerrado de Television)
               </h1>
-              <a class="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios9.html">
+              <a className="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios9.html">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -75,9 +75,9 @@ export default function Ciberseguridad() {
           </div>
         </div>
 
-        <div class="h-full">
-          <div class="h-full flex justify-end items-end  absolute top-0 right-0">
-            <img class=" lg:w-[30rem] lg:h-[40rem]  xl:w-[34rem] xl:h-[44rem] " src="../img/6.png" alt=""/>
+        <div className="h-full">
+          <div className="h-full flex justify-end items-end  absolute top-0 right-0">
+            <img className=" lg:w-[29rem] lg:h-[38rem]  xl:w-[34rem] xl:h-[44rem] " src="../img/6.png" alt=""/>
           </div>
         </div>
 

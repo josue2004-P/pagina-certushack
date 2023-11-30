@@ -4,25 +4,26 @@ export default function Ciberespionaje() {
   return (
     <>
     <NavBarServices/>
-    <div class="h-screen w-full bg-black">
-      <div class="h-[40%] flex justify-center items-center">
-        <div class="text-center text-[#8A0026] font-extrabold mt-14">
-          <h1 class="uppercase text-6xl">Ciberespionaje</h1>
+    <div className="h-screen w-full bg-black">
+      <div className="h-[40%] flex justify-center items-center">
+        <div className="text-center text-[#8A0026] font-extrabold mt-14">
+          <h1 className="uppercase text-6xl">Ciberespionaje</h1>
         </div>
       </div>
 
-      <section class="h-[60%] w-full grid grid-cols-2 lg:pl-[5rem]">
+      <section className="h-[60%] w-full grid grid-cols-2 lg:pl-[5rem]">
 
-        <div class=" flex justify-end">
-          <div class="">
-            <div class=" border-4 border-[#8A0026] mb-6">
-              <h1 class="text-white text-[1.9rem] font-extrabold p-3">
+        <div className=" flex justify-end">
+
+          <div className="">
+            <div className=" border-4 border-[#8A0026] mb-6">
+              <h1 className="text-white lg:text-[1.5rem] xl:text-[1.9rem] font-extrabold p-3">
                 El Ciberespionaje es la practica de obtener informacion
                 confidencial sin consentimiento alguno. Puede incluir acceso no
                 autorizado a sistemas o redes para recopilar informacion valiosa.
               </h1>
             </div>
-            <div class="text-[#8A0026] flex items-center justify-center pt-10">
+            <div className="text-[#8A0026] flex items-center justify-center pt-10">
               <p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -41,19 +42,21 @@ export default function Ciberespionaje() {
               </p>
             </div>
           </div>
-        </div>
-
-        <div class="h-full">
+          
+          <div className="">
           <div
-            class="h-full flex justify-end items-center absolute lg:top-[10rem] xl:top-[7rem] right-0"
+            className=" absolute lg:top-[30%] xl:top-[7rem] right-0"
           >
             <img
-              class="lg:w-[35rem] lg:h-[30rem] xl:w-[43rem] xl:h-[36rem] 2xl:w-[49rem]"
+              className="lg:w-[35rem] lg:h-[30rem] xl:w-[43rem] xl:h-[36rem] 2xl:w-[49rem]"
               src="../img/10.png"
               alt=""
             />
           </div>
         </div>
+        </div>
+
+
 
       </section>
     </div>

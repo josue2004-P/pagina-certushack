@@ -27,7 +27,7 @@ export default function AnalisisSTW() {
               </h1>
             </div>
           </div>
-          <div class="text-[#8A0026] flex items-center h-[60%]">
+          <div class="text-[#8A0026] flex items-center h-[60%] mr-10">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

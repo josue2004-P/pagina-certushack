@@ -2,7 +2,7 @@
 
 export default function NavBar() {
   return (
-    <nav className="flex h-[10%] justify-end text-white">
+    <nav className="flex  h-[10%] w-full justify-end text-white">
     <ul className="flex gap-9 p-5 lg:pr-[10rem] font-extrabold text-2xl">
       <li>
         <a className="p-2 bg-[#8A0026]" href="index.html">
