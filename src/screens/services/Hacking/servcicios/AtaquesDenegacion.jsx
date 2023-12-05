@@ -1,4 +1,4 @@
-import NavBarServices from '../../componentes/NavBarServices'
+import NavBarServices from '../../../../componentes/NavBarServices'
 
 export default function AtaquesDenegacion() {
   return (

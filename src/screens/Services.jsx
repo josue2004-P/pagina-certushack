@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NavBarServices from "../componentes/NavBar";
 
 export default function Services() {
@@ -25,12 +26,12 @@ export default function Services() {
                         falsos <br />* WhatsApp Init.
                       </p>
                       <div className="flex justify-center">
-                        <a
+                        <Link
                           className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl mt-2"
-                          href="servicios2.html"
+                          to="/services/ciberinteligencia"
                         >
                           Leer Mas...
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -51,12 +52,12 @@ export default function Services() {
                         wed
                       </p>
                       <div className="flex justify-center">
-                      <a
+                      <Link
                           className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl mt-2 mb-[4rem]"
-                          href="servicios7.html"
+                          to="/services/hacking"
                         >
                           Leer Mas...
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -78,12 +79,12 @@ export default function Services() {
                         sociales.
                       </p>
                       <div className="flex justify-center">
-                        <a
+                        <Link
                           className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl mt-2"
-                          href="servicios7.html"
+                          to="/services/ciberseguridad"
                         >
                           Leer Mas...
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

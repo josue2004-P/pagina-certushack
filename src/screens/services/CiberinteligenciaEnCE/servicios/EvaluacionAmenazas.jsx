@@ -1,13 +1,13 @@
-import NavBarServices from '../../componentes/NavBarServices'
+import NavBarServices from '../../../../componentes/NavBarServices'
 
-export default function ConsutorioCIT() {
+export default function EvaluacionAmenazas() {
   return (
     <>
       <NavBarServices />
       <div class="h-screen w-full bg-black">
         <div class="h-[30%] flex justify-center items-center">
           <div class="text-center text-[#8A0026] font-extrabold mt-10">
-            <h1 class="uppercase text-6xl">Consultoria de Ciberinteligencia</h1>
+            <h1 class="uppercase text-6xl">Evaluacion de amenazas</h1>
           </div>
         </div>
         <div class="h-[70%] w-1/2 flex justify-end">

@@ -3,24 +3,25 @@ import { Route, Routes, HashRouter } from "react-router-dom";
 import Home from "./screens/Home";
 
 import Services from "./screens/Services";
-import Ciberinteligencia from "./screens/services/Ciberinteligencia";
-import Osint from "./screens/services/Osint";
-import WhatsappInit from "./screens/services/WhatsappInit";
-import Contacto from "./screens/services/Contacto";
-import AnalisisSTW from "./screens/services/AnalisisSTW";
-import AtaquesDenegacion from "./screens/services/AtaquesDenegacion";
-import CCTV from "./screens/services/CCTV";
-import Ciberespionaje from "./screens/services/Ciberespionaje";
-import Ciberseguridad from "./screens/services/Ciberseguridad";
-import ConsultorioCTI from "./screens/services/ConsutorioCIT";
+import Ciberinteligencia from "./screens/services/CiberinteligenciaEnCE/Ciberinteligencia";
+import Osint from "./screens/services/CiberinteligenciaEnCE/servicios/Osint";
+import WhatsappInit from "./screens/services/CiberinteligenciaEnCE/servicios/WhatsappInit";
+import Contacto from "./screens/Contacto";
+import AnalisisSTW from "./screens/services/CiberinteligenciaEnCE/servicios/AnalisisSTW";
+import AtaquesDenegacion from "./screens/services/Hacking/servcicios/AtaquesDenegacion";
+import CCTV from "./screens/services/Ciberseguridad/CCTV";
+import Ciberespionaje from "./screens/services/Hacking/servcicios/Ciberespionaje";
+import Ciberseguridad from "./screens/services/Ciberseguridad/Ciberseguridad";
+import ConsultorioCTI from "./screens/services/CiberinteligenciaEnCE/servicios/EvaluacionAmenazas";
 import CreacionITI from "./screens/services/CreacionITI";
-import HackingAPW from "./screens/services/HackinAPW";
-import Hacking from "./screens/services/Hacking";
-import HackingCampañaPolitica from "./screens/services/HackingCampañaPolitica";
-import ManipulacionRedes from "./screens/services/ManipulacionRedes";
-import RoboInformacion from "./screens/services/RoboInformacion";
+import HackingAPW from "./screens/services/Hacking/servcicios/HackinAPW";
+import Hacking from "./screens/services/Hacking/Hacking";
+import HackingCampañaPolitica from "./screens/services/Hacking/servcicios/HackingCampañaPolitica";
+import ManipulacionRedes from "./screens/services/Hacking/servcicios/ManipulacionRedes";
+import RoboInformacion from "./screens/services/Hacking/servcicios/RoboInformacion";
 import Tecnologia from "./screens/services/Tecnologia";
 import CerTusHack from "./screens/services/CerTusHack";
+import EvaluacionAmenazas from "./screens/services/CiberinteligenciaEnCE/servicios/EvaluacionAmenazas";
 
 export default function App() {
   return (
@@ -45,7 +46,7 @@ export default function App() {
         <Route path="/services/cctv" element={<CCTV />} />
         <Route path="/services/ciberespionaje" element={<Ciberespionaje />} />
         <Route path="/services/ciberseguridad" element={<Ciberseguridad />} />
-        <Route path="/services/consultorioCTI" element={<ConsultorioCTI />} />
+        <Route path="/services/evalucionAmenazas" element={<EvaluacionAmenazas />} />
         <Route path="/services/creacionITI" element={<CreacionITI />} />
         <Route path="/services/hackingAPW" element={<HackingAPW />} />
         <Route path="/services/hacking" element={<Hacking />} />

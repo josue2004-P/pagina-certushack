@@ -1,4 +1,4 @@
-import NavBarServices from '../../componentes/NavBarServices'
+import NavBarServices from '../../../../componentes/NavBarServices'
 
 export default function Ciberespionaje() {
   return (
@@ -45,7 +45,7 @@ export default function Ciberespionaje() {
           
           <div className="">
           <div
-            className=" absolute lg:top-[30%] xl:top-[7rem] right-0"
+            className=" absolute lg:top-[30%] xl:top-[14.5rem] right-0"
           >
             <img
               className="lg:w-[35rem] lg:h-[30rem] xl:w-[43rem] xl:h-[36rem] 2xl:w-[49rem]"

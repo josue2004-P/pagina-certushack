@@ -1,4 +1,5 @@
-import NavBarServices from '../../componentes/NavBarServices'
+import { Link } from 'react-router-dom'
+import NavBarServices from '../../../componentes/NavBarServices'
 
 export default function Ciberseguridad() {
   return (
@@ -21,7 +22,9 @@ export default function Ciberseguridad() {
               >
                 Creacion de infraestructura T.I.
               </h1>
-              <a className="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios8.html">
+              <Link
+              to="/services/creacionITI"
+               className="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios8.html">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -41,7 +44,7 @@ export default function Ciberseguridad() {
                     d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             <div className="flex items-center mt-4">
@@ -50,7 +53,9 @@ export default function Ciberseguridad() {
               >
                 CCTV (Circuito Cerrado de Television)
               </h1>
-              <a className="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios9.html">
+              <Link
+              to="/services/cctv"
+               className="text-2xl text-[#8A0026] font-extrabold bg-gray-600" href="servicios9.html">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -70,7 +75,7 @@ export default function Ciberseguridad() {
                     d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
