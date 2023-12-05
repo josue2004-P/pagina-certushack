@@ -20,20 +20,20 @@ export default function Home() {
 
           <div className="  lg:w-1/2    flex lg:pl-10 xl:pl-0 lg:pt-16 xl:pt-10 2xl:pt-5 justify-start lg:mt-[3rem] xl:mt-[3rem]">
             <div className="font-bold w-">
-              <h1 className="text-[2.95rem] sm:text-[4rem] md:text-[6rem] lg:text-[2.40rem] xl:lg:text-[3.20rem] 2xl:text-[3.95rem] leading-none text-white">
+              <h1 className="text-[2rem]  xs:text-[2.95rem] sm:text-[4rem] md:text-[6rem] lg:text-[2.40rem] xl:lg:text-[3.20rem] 2xl:text-[3.95rem] leading-none text-white">
                 TU
               </h1>
-              <h1 className="text-[4.4rem] sm:text-[6rem] md:text-[8rem] lg:text-[4.76rem] xl:lg:text-[6.35rem] 2xl:text-[7.75rem] leading-none text-[#8A0026] tracking-wider">
+              <h1 className="text-[3.39rem]   xs:text-[4.4rem] sm:text-[6rem] md:text-[8rem] lg:text-[4.76rem] xl:lg:text-[6.35rem] 2xl:text-[7.75rem] leading-none text-[#8A0026] tracking-wider">
                 CAMPAÑA
               </h1>
-              <h1 className="text-[2.2rem] sm:text-[3rem] md:text-[4rem] lg:text-[2.40rem] xl:lg:text-[3.20rem] 2xl:text-[3.95rem] leading-none text-white">
+              <h1 className=" text-[1.6rem]  xs:text-[2.2rem] sm:text-[3rem] md:text-[4rem] lg:text-[2.40rem] xl:lg:text-[3.20rem] 2xl:text-[3.95rem] leading-none text-white">
                 A UN NIVEL SUPERIOR
               </h1>
               <div className="flex">
-                <h1 className="text-white text-[2.50rem] sm:text-[4rem] md:text-[5rem] lg:text-[2.40rem] xl:lg:text-[3.20rem] 2xl:text-[3.95rem] leading-none mr-2">
+                <h1 className="text-white text-[2rem]  xs:text-[2.50rem] sm:text-[4rem] md:text-[5rem] lg:text-[2.40rem] xl:lg:text-[3.20rem] 2xl:text-[3.95rem] leading-none mr-2">
                   DE
                 </h1>
-                <p className="text-[#8A0026] text-[3.6rem] sm:text-[4.75rem] md:text-[6.5rem] lg:text-[4rem] xl:lg:text-[5.32rem] 2xl:text-[6.5rem] leading-none">
+                <p className="text-[#8A0026] text-[2.5rem]  xs:text-[3.6rem] sm:text-[4.75rem] md:text-[6.5rem] lg:text-[4rem] xl:lg:text-[5.32rem] 2xl:text-[6.5rem] leading-none">
                   SEGURIDAD
                 </p>
               </div>

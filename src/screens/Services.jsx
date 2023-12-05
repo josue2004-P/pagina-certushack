@@ -8,18 +8,19 @@ export default function Services() {
         <div className="w-full h-full ">
           <NavBarServices />
 
-          <section className="lg:h-[90%]  pt-[10rem] pb-10 lg:my-0 xl:pt-10">
+        <section className="lg:h-screen  pt-20 xs:pt-[4rem] pb-10 lg:p-0 ">
+        <div className="flex w-full h-full items-center ">
             <div className="flex w-full  h-full justify-center items-center ">
-              <div className="grid xl:grid-cols-3 lg:grid-cols-2 gap-6 h-full">
-                
-                <div className="flex items-center">
-                  <div className="lg:h-full xl:h-[70%] w-[23.9rem] bg-[#242924] rounded-[3rem]">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 h-full">
+
+                <div className="flex items-center justify-center">
+                  <div className=" max-w-xs max-h-[27rem] shadow-md shadow-[#8A0026] rounded-[1.5rem]">
                     <div className="w-full h-full">
-                      <h1 className="h-[10%] uppercase text-[2rem] font-extrabold text-center my-[1.7rem] text-[#8A0026]">
+                      <h1 className=" uppercase text-[1.75rem] font-extrabold text-center mb-4 mt-[1.7rem] text-[#8A0026]">
                         Ciberinteligencia en
-                        <p className="text-[1.9rem]">campaña electoral</p>
+                        <p className="text-[1.5rem]">campaña electoral</p>
                       </h1>
-                      <p className="h-[60%] px-8 pt-6 font-extrabold text-2xl text-white">
+                      <p className=" px-8  font-medium text-xl text-white">
                         * OSINT <br />
                         * Invesgigacion de personas/ <br />
                         redes sociales. <br />
@@ -28,7 +29,7 @@ export default function Services() {
                       </p>
                       <div className="flex justify-center">
                         <Link
-                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl my-5"
+                          className="bg-[#8A0026] text-white font-semibold text-xl px-4 py-2 rounded-xl my-5"
                           to="/services/ciberinteligencia"
                         >
                           Leer Mas...
@@ -38,13 +39,13 @@ export default function Services() {
                   </div>
                 </div>
 
-                <div className="flex items-center">
-                  <div className="lg:h-full xl:h-[70%] bg-[#242924] rounded-[3rem]">
-                    <div className="h-full w-full">
-                      <h1 className="h-[10%] uppercase text-[2.5rem] font-bold text-center my-[1.7rem] text-[#8A0026]">
-                        Haking <br />
+                <div className="flex items-center justify-center">
+                  <div className=" w-[20rem] h-[27rem] shadow-md shadow-[#8A0026] rounded-[1.5rem]">
+                    <div className="w-full h-full relative">
+                      <h1 className=" uppercase text-[1.75rem] font-extrabold text-center mb-4 mt-[1.7rem] text-[#8A0026]">
+                        Hacking
                       </h1>
-                      <p className="h-[60%] pt-6 px-8 font-extrabold text-2xl text-white">
+                      <p className=" px-8  font-medium text-xl text-white">
                         * Ciberespionaje <br />
                         * Hacking de perfiles de <br />
                         FB/IG/X. <br />
@@ -52,10 +53,10 @@ export default function Services() {
                         de servicio a aplicaciones <br />
                         wed
                       </p>
-                      <div className="flex justify-center">
-                      <Link
-                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl my-5"
-                          to="/services/hacking"
+                      <div className="flex justify-center absolute bottom-[1.6rem] w-full">
+                        <Link
+                          className="bg-[#8A0026] text-white font-semibold text-xl px-4 py-2 rounded-xl my-5"
+                          to="/services/ciberinteligencia"
                         >
                           Leer Mas...
                         </Link>
@@ -63,14 +64,14 @@ export default function Services() {
                     </div>
                   </div>
                 </div>
-                
-                <div className="flex items-center">
-                  <div className="lg:h-full xl:h-[70%] bg-[#242924] rounded-[3rem]">
-                    <div className="w-full h-full">
-                      <h1 className="h-[10%] uppercase text-[2.5rem] font-bold text-center my-[1.7rem] text-[#8A0026]">
-                        Ciberseguridad <br />
+
+                <div className="flex items-center justify-center">
+                  <div className=" w-[20rem] h-[27rem] shadow-md shadow-[#8A0026] rounded-[1.5rem]">
+                    <div className="w-full h-full relative">
+                      <h1 className=" uppercase text-[1.75rem] font-extrabold text-center mb-4 mt-[1.7rem] text-[#8A0026]">
+                        Ciberseguridad
                       </h1>
-                      <p className="h-[60%] pt-6 px-8 font-extrabold text-2xl text-white">
+                      <p className=" px-8  font-medium text-xl text-white">
                         * Creacion de <br />
                         infraestructura TI <br />
                         * Proteccion de datos <br />
@@ -79,10 +80,10 @@ export default function Services() {
                         * Seguridad en redes <br />
                         sociales.
                       </p>
-                      <div className="flex justify-center">
+                      <div className="flex justify-center absolute bottom-[1.6rem] w-full">
                         <Link
-                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl  my-5"
-                          to="/services/ciberseguridad"
+                          className="bg-[#8A0026] text-white font-semibold text-xl px-4 py-2 rounded-xl my-5"
+                          to="/services/ciberinteligencia"
                         >
                           Leer Mas...
                         </Link>
@@ -92,8 +93,6 @@ export default function Services() {
                 </div>
               </div>
 
-
-              
               {/* <div className="text-[#8A0026] pl-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -111,6 +110,7 @@ export default function Services() {
                 </svg>
               </div> */}
             </div>
+        </div>
           </section>
         </div>
       </div>

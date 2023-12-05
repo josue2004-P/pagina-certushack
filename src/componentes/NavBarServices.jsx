@@ -8,7 +8,7 @@ export default function NavBarServices() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="lg:flex fixed lg:h-[10%] w-full justify-end text-white">
+    <nav className="lg:flex fixed lg:h-[10%] w-full justify-end bg-black z-10 text-white">
       <div className="bg-black lg:hidden  ">
         <button
           onClick={toggleMenu}
