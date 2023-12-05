@@ -1,27 +1,27 @@
-import NavBarServices from '../../componentes/NavBarServices'
+import NavBarServices from '../../../../componentes/NavBarServices'
 
 export default function CreacionITI() {
   return (
     <>
     <NavBarServices/>
-    <div class="h-screen w-full bg-black">
-      <div class="h-[30%] flex justify-center items-center">
-        <div class="text-center text-[#8A0026] font-extrabold mt-10">
-          <h1 class="uppercase text-6xl">Creacion de infraestructura T.I.</h1>
+    <div className="h-screen w-full bg-black">
+      <div className="h-[30%] flex justify-center items-center">
+        <div className="text-center text-[#8A0026] font-extrabold mt-10">
+          <h1 className="uppercase text-6xl">Creacion de infraestructura T.I.</h1>
         </div>
       </div>
-      <div class="h-[50%]">
-        <div class="flex justify-center h-full">
-          <div class="grid grid-cols-2 gap-x-4">
-            <div class="h-full w-[24rem] border-4 border-[#8A0026]">
-              <h1 class="text-white text-[1.8rem] font-extrabold p-3">
+      <div className="h-[50%]">
+        <div className="flex justify-center h-full">
+          <div className="grid grid-cols-2 gap-x-4">
+            <div className="h-full w-[24rem] border-4 border-[#8A0026]">
+              <h1 className="text-white text-[1.8rem] font-extrabold p-3">
                 Establecer una infraestructura solida y segura que incluya
                 servidores, redes y sistemas de almacenamiento para respaldar
                 las operaciones de la campaña.
               </h1>
             </div>
-            <div class="h-full w-[24rem] border-4 border-[#8A0026]">
-              <h1 class="text-white text-[1.8rem] font-extrabold p-3">
+            <div className="h-full w-[24rem] border-4 border-[#8A0026]">
+              <h1 className="text-white text-[1.8rem] font-extrabold p-3">
                 Implementar politicas de seguridad y estandares de configuracion
                 para garantizar la proteccion de la infraestructura contra
                 amenazas ciberneticas.
@@ -30,7 +30,7 @@ export default function CreacionITI() {
           </div>
         </div>
       </div>
-      <div class="h-[10%] flex justify-center text-[#8A0026] mt-10 gap-8">
+      <div className="h-[10%] flex justify-center text-[#8A0026] mt-10 gap-8">
         <p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function CreacionITI() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-12 h-12"
+            className="w-12 h-12"
           >
             <path
               stroke-linecap="round"
@@ -54,7 +54,7 @@ export default function CreacionITI() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-12 h-12"
+            className="w-12 h-12"
           >
             <path
               stroke-linecap="round"

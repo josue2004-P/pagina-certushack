@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import NavBarServices from "../componentes/NavBar";
+import NavBarServices from "../componentes/NavBarServices";
 
 export default function Services() {
   return (
@@ -8,9 +8,10 @@ export default function Services() {
         <div className="w-full h-full ">
           <NavBarServices />
 
-          <section className="h-[90%]  xl:pt-10">
-            <div className="flex w-full h-full justify-center items-center ">
+          <section className="lg:h-[90%]  pt-[10rem] pb-10 lg:my-0 xl:pt-10">
+            <div className="flex w-full  h-full justify-center items-center ">
               <div className="grid xl:grid-cols-3 lg:grid-cols-2 gap-6 h-full">
+                
                 <div className="flex items-center">
                   <div className="lg:h-full xl:h-[70%] w-[23.9rem] bg-[#242924] rounded-[3rem]">
                     <div className="w-full h-full">
@@ -27,7 +28,7 @@ export default function Services() {
                       </p>
                       <div className="flex justify-center">
                         <Link
-                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl mt-2"
+                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl my-5"
                           to="/services/ciberinteligencia"
                         >
                           Leer Mas...
@@ -53,7 +54,7 @@ export default function Services() {
                       </p>
                       <div className="flex justify-center">
                       <Link
-                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl mt-2 mb-[4rem]"
+                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl my-5"
                           to="/services/hacking"
                         >
                           Leer Mas...
@@ -80,7 +81,7 @@ export default function Services() {
                       </p>
                       <div className="flex justify-center">
                         <Link
-                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl mt-2"
+                          className="bg-[#8A0026] text-white font-extrabold text-2xl px-4 py-2 rounded-xl  my-5"
                           to="/services/ciberseguridad"
                         >
                           Leer Mas...

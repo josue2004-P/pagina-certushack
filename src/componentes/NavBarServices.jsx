@@ -1,22 +1,53 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function NavBarServices() {
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
-    <nav className="flex w-full h-[10%] bg-black fixed z-10 justify-end text-white">
-      <ul className="flex gap-9 p-5 lg:pr-[10rem] font-extrabold text-2xl">
+    <nav className="lg:flex fixed lg:h-[10%] w-full justify-end text-white">
+      <div className="bg-black lg:hidden  ">
+        <button
+          onClick={toggleMenu}
+          className="text-white px-10 py-5  "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 9h16.5m-16.5 6.75h16.5"
+            />
+          </svg>
+        </button>
+      </div>
+      <ul
+        className={`bg-black lg:flex justify-end gap-9 p-5 lg:pr-[10rem] font-extrabold text-2xl w-full ${
+          isMenuOpen ? "hidden" : ""
+        }`}
+      >
         <li>
-          <Link to="/">INICIO</Link>
-        </li>
-        <li>
-          <Link to="/services" className="p-2 bg-[#8A0026]" href="">
-            SERVICIOS
+          <Link to="/" className="" href="index.html">
+            INICIO
           </Link>
         </li>
         <li>
-          <Link to="">NOSOTROS</Link>
+          <Link to="/services">SERVICIOS</Link>
         </li>
         <li>
-          <a to="/contacto">CONTACTO</a>
+          <a href="">NOSOTROS</a>
+        </li>
+        <li>
+          <Link to="/contacto">CONTACTO</Link>
         </li>
       </ul>
     </nav>

@@ -1,27 +1,27 @@
-import NavBarServices from '../../componentes/NavBarServices'
+import NavBarServices from "../../../componentes/NavBarServices"
 
 export default function Tecnologia() {
   return (
     <>
     <NavBarServices/>
-    <div class="h-screen w-full bg-black">
-      <div class="h-[30%] flex justify-center items-center">
-        <div class="text-center text-[#8A0026] font-extrabold mt-20">
-          <h1 class="uppercase text-6xl">Tecnologia</h1>
+    <div className="h-screen w-full bg-black">
+      <div className="h-[30%] flex justify-center items-center">
+        <div className="text-center text-[#8A0026] font-extrabold mt-20">
+          <h1 className="uppercase text-6xl">Tecnologia</h1>
         </div>
       </div>
-      <section class="h-[70%]">
-        <div class="grid grid-cols-2 h-full w-full lg:pl-[5rem]">
-          <div class="flex justify-end">
+      <section className="h-[70%]">
+        <div className="grid grid-cols-2 h-full w-full lg:pl-[5rem]">
+          <div className="flex justify-end">
             <div>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <h1
-                  class="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                  className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
                 >
                   Manejo de redes sociales
                 </h1>
                 <a
-                  class="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
                   href="servicios11.html"
                 >
                   <svg
@@ -30,7 +30,7 @@ export default function Tecnologia() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-14 h-14"
+                    className="w-14 h-14"
                   >
                     <path
                       stroke-linecap="round"
@@ -46,14 +46,14 @@ export default function Tecnologia() {
                 </a>
               </div>
 
-              <div class="flex items-center mt-4">
+              <div className="flex items-center mt-4">
                 <h1
-                  class="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                  className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
                 >
                   Estrategias digitales
                 </h1>
                 <a
-                  class="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
                   href="servicios11.html"
                 >
                   <svg
@@ -62,7 +62,7 @@ export default function Tecnologia() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-14 h-14"
+                    className="w-14 h-14"
                   >
                     <path
                       stroke-linecap="round"
@@ -78,14 +78,14 @@ export default function Tecnologia() {
                 </a>
               </div>
 
-              <div class="flex items-center mt-4">
+              <div className="flex items-center mt-4">
                 <h1
-                  class="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                  className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
                 >
                   Creacion de sitios web o blog
                 </h1>
                 <a
-                  class="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
                   href="servicios11.html"
                 >
                   <svg
@@ -94,7 +94,7 @@ export default function Tecnologia() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-14 h-14"
+                    className="w-14 h-14"
                   >
                     <path
                       stroke-linecap="round"
@@ -110,14 +110,14 @@ export default function Tecnologia() {
                 </a>
               </div>
 
-              <div class="flex items-center mt-4">
+              <div className="flex items-center mt-4">
                 <h1
-                  class="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                  className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
                 >
                  Creacion de aplicaciones moviles
                 </h1>
                 <a
-                  class="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[1rem] min-[1118px]:p-0"
+                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[1rem] min-[1118px]:p-0"
                   href="servicios13.html"
                 >
                   <svg
@@ -126,7 +126,7 @@ export default function Tecnologia() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-14 h-14"
+                    className="w-14 h-14"
                   >
                     <path
                       stroke-linecap="round"
@@ -142,14 +142,14 @@ export default function Tecnologia() {
                 </a>
               </div>
 
-              <div class="flex items-center mt-4">
+              <div className="flex items-center mt-4">
                 <h1
-                  class="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                  className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
                 >
                  Analisis de datos (Social Listening)
                 </h1>
                 <a
-                  class="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[1rem] min-[1146px]:p-0"
+                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[1rem] min-[1146px]:p-0"
                   href="servicios13.html"
                 >
                   <svg
@@ -158,7 +158,7 @@ export default function Tecnologia() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-14 h-14"
+                    className="w-14 h-14"
                   >
                     <path
                       stroke-linecap="round"
@@ -174,20 +174,20 @@ export default function Tecnologia() {
                 </a>
               </div>
 
-              <div class="flex items-center mt-4">
+              <div className="flex items-center mt-4">
                 <h1
-                  class="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
+                  className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12"
                 >
                   Publicidad en linea
                 </h1>
-                <p class="text-2xl text-[#8A0026] font-extrabold bg-gray-600">
+                <p className="text-2xl text-[#8A0026] font-extrabold bg-gray-600">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-14 h-14"
+                    className="w-14 h-14"
                   >
                     <path
                       stroke-linecap="round"
@@ -206,12 +206,12 @@ export default function Tecnologia() {
             </div>
           </div>
 
-          <div class="h-full">
+          <div className="h-full">
             <div
-              class="h-full flex justify-end items-end absolute top-0 right-0"
+              className="h-full flex justify-end items-end absolute top-0 right-0"
             >
               <img
-                class="lg:w-[33rem] xl:w-[40rem] lg:h-[42rem] xl:h-[47rem] 2xl:h-[48rem] 2xl:w-[39rem]"
+                className="lg:w-[33rem] xl:w-[40rem] lg:h-[42rem] xl:h-[47rem] 2xl:h-[48rem] 2xl:w-[39rem]"
                 src="../img/18.png"
                 alt=""
               />
