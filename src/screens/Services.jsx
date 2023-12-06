@@ -15,7 +15,7 @@ export default function Services() {
 
                 <div className="flex items-center justify-center">
                   <div className=" max-w-xs h-[27rem] shadow-md shadow-[#8A0026] rounded-[1.5rem]">
-                    <div className="w-full h-full">
+                    <div className="w-full h-full relative ">
                       <h1 className=" uppercase text-[1.7rem] font-extrabold text-center mb-4 mt-[1.7rem] text-[#8A0026]">
                         Ciberinteligencia en
                         <p className="text-[1.5rem]">campaña electoral</p>
@@ -27,9 +27,9 @@ export default function Services() {
                         * Identificaciones falsas de perfiles <br />
                         falsos <br />* WhatsApp Init.
                       </p>
-                      <div className="flex justify-center">
+                      <div className="flex justify-center w-full absolute bottom-[1.6rem] ">
                         <Link
-                          className="bg-[#8A0026] text-white font-semibold text-xl px-4 py-2 rounded-xl my-5"
+                          className="bg-[#8A0026] text-white font-semibold text-xl px-4 py-2 rounded-xl my-5  "
                           to="/services/ciberinteligencia"
                         >
                           Leer Mas...
@@ -40,7 +40,7 @@ export default function Services() {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <div className=" w-[20rem] h-[27rem] shadow-md shadow-[#8A0026] rounded-[1.5rem]">
+                  <div className=" w-[20rem] h-[27rem] shadow-md shadow-[#8A0026] rounded-[1.5rem] ">
                     <div className="w-full h-full relative">
                       <h1 className=" uppercase text-[1.75rem] font-extrabold text-center mb-4 mt-[1.7rem] text-[#8A0026]">
                         Hacking
@@ -53,7 +53,7 @@ export default function Services() {
                         de servicio a aplicaciones <br />
                         wed
                       </p>
-                      <div className="flex justify-center absolute bottom-[1.8rem] w-full">
+                      <div className="flex justify-center absolute bottom-[1.6rem] w-full">
                         <Link
                           className="bg-[#8A0026] text-white font-semibold text-xl px-4 py-2 rounded-xl my-5"
                           to="/services/hacking"

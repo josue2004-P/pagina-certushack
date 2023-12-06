@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NavBarServices from "../../../../componentes/NavBarServices";
 
 export default function Osint() {
@@ -7,7 +8,9 @@ export default function Osint() {
       <div className="h-screen w-full bg-black pt-10 lg:p-0">
         <div className="lg:h-[30%] flex justify-center items-center">
           <div className="text-center text-[#8A0026] font-extrabold mt-10">
-            <h1 className="uppercase text-4xl md:text-5xl lg:text-6xl">OSINT (OPEN SOURCE INTELLIGENCE)</h1>
+            <h1 className="uppercase text-4xl md:text-5xl lg:text-6xl">
+              OSINT (OPEN SOURCE INTELLIGENCE)
+            </h1>
           </div>
         </div>
         <div className="lg:h-[50%]  mt-10 lg:mt-0">
@@ -31,7 +34,7 @@ export default function Osint() {
           </div>
         </div>
         <div className="lg:h-[10%] flex justify-center text-[#8A0026] pb-10 mt-10 gap-8">
-          <p>
+          <Link to="/services/ciberinteligencia">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -46,8 +49,10 @@ export default function Osint() {
                 d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
               />
             </svg>
-          </p>
-          <p>
+          </Link>
+          <Link
+            to="/services/whatsappInit"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -62,7 +67,7 @@ export default function Osint() {
                 d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
               />
             </svg>
-          </p>
+          </Link>
         </div>
       </div>
     </>

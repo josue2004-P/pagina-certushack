@@ -1,4 +1,5 @@
 import NavBarServices from '../../../../componentes/NavBarServices'
+import { Link } from 'react-router-dom'
 
 export default function Ciberespionaje() {
   return (
@@ -23,8 +24,8 @@ export default function Ciberespionaje() {
                 autorizado a sistemas o redes para recopilar informacion valiosa.
               </h1>
             </div>
-            <div className="text-[#8A0026] flex items-center justify-center pt-10">
-              <p>
+            <div className="lg:h-[10%] flex justify-center text-[#8A0026] pb-10 mt-10 gap-8">
+              <Link to="/services/hacking">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -36,10 +37,26 @@ export default function Ciberespionaje() {
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
+                    d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
+                  />
+                </svg>
+              </Link>
+              <Link to="/services/ataquesdenagacion">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="w-12 h-12"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                     d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
                   />
                 </svg>
-              </p>
+              </Link>
             </div>
           </div>
           

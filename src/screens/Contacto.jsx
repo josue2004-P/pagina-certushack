@@ -7,13 +7,13 @@ export default function Contacto() {
       <div className="h-screen w-full bg-black">
         <div className="h-[30%] flex justify-center items-center">
           <div className="text-center text-[#8A0026] font-extrabold mt-10">
-            <h1 className="uppercase text-6xl">Contacto</h1>
+            <h1 className="uppercase text-5xl lg:text-6xl">Contacto</h1>
           </div>
         </div>
-        <div className="">
+        <div className="pb-5">
           <div className="flex justify-center h-full ">
-            <div className=" lg:w-full rounded-xl grid lg:grid-cols-2 bg-gray-700 p-10 gap-5 lg:gap-0 gap-x-4 lg:mx-[8rem] xl:mx-[13rem] 2xl:mx-[25rem] lg:mb-0 mb-10">
-              <div className="flex justify-center">
+            <div className="w-[20rem] sm:w-[36rem] rounded-xl grid sm:grid-cols-2 bg-gray-700 gap-y-8 sm:gap-0">
+              <div className="flex justify-center pt-10">
                 <div>
                   <div>
                     <button className="text-white flex">
@@ -65,8 +65,8 @@ export default function Contacto() {
                       <p className="ml-2">xxxx-xx-xx-xx</p>
                     </button>
                   </div>
-                  <div className="flex mt-[10rem] gap-3">
-                    <div className="  rounded-2xl bg-red-900">
+                  <div className="flex  mt-16 justify-between">
+                    <div className="  rounded-2xl ">
                       <p className="mt-2 px-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -150,37 +150,37 @@ export default function Contacto() {
                 </div>
               </div>
 
-              <div className="w-full">
-                <div className="">
+              <div className="w-full pb-4 sm:pt-4 ">
+                <div className=" flex justify-center">
                   <input
-                    className="w-full text-white bg-red-900 p-2 rounded-lg text-xl font-semibold"
+                    className="w-[90%] text-white bg-red-900 p-2 rounded-lg text-xl font-medium"
                     type="text"
                     placeholder="Nombre"
                     name=""
                     id=""
                   />
                 </div>
-                <div className="mt-[1rem]">
+                <div className="mt-[1rem] flex justify-center">
                   <input
-                    className="w-full text-white bg-red-900 p-2 rounded-lg text-xl font-semibold"
+                    className="w-[90%] text-white bg-red-900 p-2 rounded-lg text-xl font-medium"
                     type="text"
                     placeholder="Correo"
                     name=""
                     id=""
                   />
                 </div>
-                <div className="mt-[1rem]">
+                <div className="mt-[1rem] flex justify-center">
                   <input
-                    className="w-full text-white bg-red-900 p-2 rounded-lg text-xl font-semibold"
+                    className="w-[90%] text-white bg-red-900 p-2 rounded-lg text-xl font-medium"
                     type="text"
                     placeholder="Celular"
                     name=""
                     id=""
                   />
                 </div>
-                <div className="mt-[1rem]">
+                <div className="mt-[1rem] flex justify-center">
                   <textarea
-                    className="w-full text-white bg-red-900 p-2 rounded-lg text-xl font-semibold"
+                    className="w-[90%] text-white bg-red-900 p-2 rounded-lg text-xl font-medium"
                     placeholder="Comentario"
                     name=""
                     id=""
@@ -188,12 +188,14 @@ export default function Contacto() {
                     rows="3"
                   ></textarea>
                 </div>
-                <button
-                  className="rounded-lg mt-[1rem] bg-red-900 text-white px-3 text-xl font-semibold py-1 uppercase"
-                  type="button"
-                >
-                  Enviar
-                </button>
+                <div className="flex justify-center">
+                  <button
+                    className="rounded-lg mt-[1rem] bg-red-900 text-white px-3 text-basic font-medium py-1 uppercase"
+                    type="button"
+                  >
+                    Enviar
+                  </button>
+                </div>
               </div>
             </div>
           </div>

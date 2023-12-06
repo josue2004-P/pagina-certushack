@@ -1,4 +1,5 @@
 import NavBarServices from "../../../../componentes/NavBarServices";
+import { Link } from "react-router-dom";
 
 export default function AtaquesDenegacion() {
   return (
@@ -9,13 +10,14 @@ export default function AtaquesDenegacion() {
           <div className="text-center text-[#8A0026] font-extrabold mt-[1.5rem]">
             <h1 className="uppercase text-3xl  lg:text-6xl">
               Ataques de denegacion <br />
-              <p className="text-3xl lg:text-5xl">De servicios a aplicaciones web</p>
+              <p className="text-3xl lg:text-5xl">
+                De servicios a aplicaciones web
+              </p>
             </h1>
           </div>
         </div>
 
         <section className="h-[60%] lg:grid-cols-2 grid lg:pl-[2rem] xl:pl-[3.5rem] lg:mt-10 xl:mt-0 ">
-
           <div className="flex justify-center lg:justify-end">
             <div className=" w-[20rem] lg:w-full">
               <div className="border-4 border-[#8A0026] mb-6">
@@ -43,6 +45,41 @@ export default function AtaquesDenegacion() {
                 alt=""
               />
             </div>
+          </div>
+
+          <div className="lg:h-[10%] flex justify-center text-[#8A0026] pb-10 mt-10 gap-8">
+            <Link to="/services/ciberespionaje">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-12 h-12"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M18.75 19.5l-7.5-7.5 7.5-7.5m-6 15L5.25 12l7.5-7.5"
+                />
+              </svg>
+            </Link>
+            <Link to="/services/manipulacionRedes">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="w-12 h-12"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </Link>
           </div>
         </section>
       </div>
