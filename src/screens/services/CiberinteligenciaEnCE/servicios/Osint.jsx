@@ -11,16 +11,16 @@ export default function Osint() {
           </div>
         </div>
         <div className="lg:h-[50%]  mt-10 lg:mt-0">
-          <div className="flex justify-center h-full">
+          <div className="flex justify-center  h-full">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 lg:gap-y-0  md:gap-x-4">
-              <div className="h-full w-[24rem] border-4 border-[#8A0026]">
+              <div className="h-full w-[20rem] xs:w-[24rem] border-4 border-[#8A0026]">
                 <h1 className="text-white text-[1.3rem] lg:text-[1.8rem] font-extrabold p-3">
                   Recopilacion de informacion sobre el perfil democratico de los
                   votantes en una region determinada utilizando datos publicos,
                   encuestas y registros electorales.
                 </h1>
               </div>
-              <div className="h-full w-[24rem] border-4 border-[#8A0026]">
+              <div className="h-full w-[20rem] xs:w-[24rem] border-4 border-[#8A0026]">
                 <h1 className="text-white text-[1.3rem] lg:text-[1.8rem] font-extrabold p-3">
                   Analisis de noticias y articulos relacionados con temas
                   politicos clave para comprender las preocupaciones y

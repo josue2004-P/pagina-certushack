@@ -11,8 +11,8 @@ export default function Contacto() {
           </div>
         </div>
         <div className="">
-          <div className="flex justify-center h-full">
-            <div className="w-full rounded-xl grid grid-cols-2 bg-gray-700 p-10 gap-x-4 lg:mx-[8rem] xl:mx-[13rem] 2xl:mx-[25rem]">
+          <div className="flex justify-center h-full ">
+            <div className=" lg:w-full rounded-xl grid lg:grid-cols-2 bg-gray-700 p-10 gap-5 lg:gap-0 gap-x-4 lg:mx-[8rem] xl:mx-[13rem] 2xl:mx-[25rem] lg:mb-0 mb-10">
               <div className="flex justify-center">
                 <div>
                   <div>
@@ -21,7 +21,7 @@ export default function Contacto() {
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        class="w-6 h-6"
+                        className="w-6 h-6"
                       >
                         <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                         <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />

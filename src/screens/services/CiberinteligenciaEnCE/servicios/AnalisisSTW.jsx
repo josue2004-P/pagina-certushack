@@ -49,7 +49,7 @@ export default function AnalisisSTW() {
             <div className="h-full lg:flex hidden">
               <div className="flex justify-end   absolute top-[14rem] right-0 ">
                 <img
-                  className=" lg:w-[33rem] xl:w-[40rem] lg:h-[38rem] xl:h-[38rem] "
+                  className=" lg:w-[30rem] xl:w-[40rem] lg:h-[33rem] xl:h-[38rem] "
                   src="../img/4.png"
                   alt=""
                 />

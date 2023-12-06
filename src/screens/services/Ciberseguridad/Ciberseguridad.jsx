@@ -7,20 +7,20 @@ export default function Ciberseguridad() {
       <div className="h-screen w-full bg-black">
         <div className="h-[40%] flex justify-center items-center">
           <div className="text-center text-[#8A0026] font-extrabold mt-10">
-            <h1 className="uppercase text-6xl">Ciberseguridad</h1>
+            <h1 className="uppercase text-[2.2rem] xs:text-4xl sm:text-6xl">Ciberseguridad</h1>
           </div>
         </div>
 
-        <div className="h-[60%] grid-cols-2 grid  pl-[4rem]">
-          <div className="h-full w-full flex justify-end ">
+        <div className="h-[60%] grid-cols-1 lg:grid-cols-2 grid  lg:pl-[4rem]">
+          <div className="h-full w-full flex justify-start lg:justify-end ">
             <div>
               <div className="flex items-center">
-                <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                <h1 className="xs:text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
                   Creacion de infraestructura T.I.
                 </h1>
                 <Link
                   to="/services/creacionITI"
-                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                  className="text-2xl p-2 xs:p-0 text-[#8A0026] font-extrabold bg-gray-600"
                   href="servicios8.html"
                 >
                   <svg
@@ -46,12 +46,12 @@ export default function Ciberseguridad() {
               </div>
 
               <div className="flex items-center mt-4">
-                <h1 className="lg:text-xl xl:text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                <h1 className="   xs:text-xl xl:text-2xl text-white font-extrabold p-3 bg-gray-600 xs:pr-12">
                   CCTV (Circuito Cerrado de Television)
                 </h1>
                 <Link
                   to="/services/cctv"
-                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[8px]"
                   href="servicios9.html"
                 >
                   <svg
@@ -60,7 +60,7 @@ export default function Ciberseguridad() {
                     viewBox="0 0 24 24"
                     stroke-width="1.5"
                     stroke="currentColor"
-                    class="w-14 xl:h-14 lg:h-[3.25rem]"
+                    className="w-14 xl:h-14 lg:h-[3.25rem]"
                   >
                     <path
                       stroke-linecap="round"
@@ -78,10 +78,10 @@ export default function Ciberseguridad() {
             </div>
           </div>
 
-          <div className="h-full">
+          <div className="h-full hidden lg:flex">
             <div className="h-full flex justify-end items-end  absolute top-0 right-0">
               <img
-                className=" lg:w-[29rem] lg:h-[38rem]  xl:w-[34rem] xl:h-[44rem] "
+                className=" lg:w-[26rem] lg:h-[35rem]  xl:w-[34rem] xl:h-[44rem] "
                 src="../img/6.png"
                 alt=""
               />

@@ -12,7 +12,7 @@ export default function Hacking() {
           </div>
         </div>
         <section className="h-[70%]">
-          <div className="grid grid-cols-2 h-full w-full lg:pl-[5rem] ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 h-full w-full lg:pl-[5rem] ">
             <div className="flex justify-end ">
               <div>
                 <div className="flex items-center">
@@ -46,11 +46,11 @@ export default function Hacking() {
                 </div>
 
                 <div className="flex items-center mt-4">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                  <h1 className=" xs:text-lg text-white font-extrabold p-2 xs:p-3 bg-gray-600  hac2:p-[14px] ">
                     Ataques de denegacion de servicio a aplicaciones web
                   </h1>
                   <Link
-                    className="text-xl text-[#8A0026] font-extrabold bg-gray-600 p-[1rem] 2xl:p-0"
+                    className="text-xl text-[#8A0026] font-extrabold bg-gray-600 p-[3.7px] xs:p-[.73rem] hac2:p-[0px] 2xl:p-0"
                     to="/services/ataquesdenagacion"
                   >
                     <svg
@@ -59,7 +59,7 @@ export default function Hacking() {
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="w-14 h-14"
+                      class="w-14 h-14 "
                     >
                       <path
                         stroke-linecap="round"
@@ -76,11 +76,11 @@ export default function Hacking() {
                 </div>
 
                 <div className="flex items-center mt-4">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                  <h1 className="text-[1.24rem] text-white font-extrabold p-3 bg-gray-600 hac1:p-[13px] ">
                     Manipulacion de redes sociales y desinformacion
                   </h1>
                   <Link
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[1rem] min-[1469px]:p-0 "
+                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[13.3px] hac1:p-0  "
                     to="/services/manipulacionRedes"
                   >
                     <svg
@@ -106,7 +106,7 @@ export default function Hacking() {
                 </div>
 
                 <div className="flex items-center mt-4">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                  <h1 className="text-[1.2rem]  text-white font-extrabold  p-[13.7px] xs:p-[13.3px] bg-gray-600 ">
                     Hacking de aplicaciones web
                   </h1>
                   <Link
@@ -136,7 +136,7 @@ export default function Hacking() {
                 </div>
 
                 <div className="flex items-center mt-4">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                  <h1 className="text-xl xs:text-2xl text-white font-extrabold p-[13.7px] xs:p-3 bg-gray-600 pr-12">
                     Robo de informacion
                   </h1>
                   <Link
@@ -166,7 +166,7 @@ export default function Hacking() {
                 </div>
 
                 <div className="flex items-center mt-4">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                  <h1 className="text-[1.22rem] text-white font-extrabold p-[13px] bg-gray-600 xs:pr-12">
                     Hacking a capaña politica
                   </h1>
                   <Link 
@@ -178,7 +178,7 @@ export default function Hacking() {
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="w-14 h-14"
+                      className="w-14 h-14"
                     >
                       <path
                         stroke-linecap="round"
@@ -196,7 +196,7 @@ export default function Hacking() {
               </div>
             </div>
 
-            <div className="h-full">
+            <div className="h-full hidden lg:flex">
               <div className="h-full flex justify-end items-end absolute top-0 right-0">
                 <img
                   className="lg:w-[30rem] lg:h-[43rem] xl:w-[40rem] "

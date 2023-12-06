@@ -7,15 +7,15 @@ export default function Ciberespionaje() {
     <div className="h-screen w-full bg-black">
       <div className="h-[40%] flex justify-center items-center">
         <div className="text-center text-[#8A0026] font-extrabold mt-14">
-          <h1 className="uppercase text-6xl">Ciberespionaje</h1>
+          <h1 className="uppercase text-4xl lg:text-6xl">Ciberespionaje</h1>
         </div>
       </div>
 
-      <section className="h-[60%] w-full grid grid-cols-2 lg:pl-[5rem]">
+      <section className="h-[60%] w-full grid lg:grid-cols-2 lg:pl-[5rem]">
 
-        <div className=" flex justify-end">
+        <div className=" flex justify-center lg:justify-end">
 
-          <div className="">
+          <div className="w-[20rem] lg:w-full">
             <div className=" border-4 border-[#8A0026] mb-6">
               <h1 className="text-white lg:text-[1.5rem] xl:text-[1.9rem] font-extrabold p-3">
                 El Ciberespionaje es la practica de obtener informacion
@@ -43,7 +43,8 @@ export default function Ciberespionaje() {
             </div>
           </div>
           
-          <div className="">
+
+          <div className="hidden lg:flex">
           <div
             className=" absolute lg:top-[30%] xl:top-[14.5rem] right-0"
           >

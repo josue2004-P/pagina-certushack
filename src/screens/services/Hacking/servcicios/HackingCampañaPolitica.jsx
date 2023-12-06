@@ -6,19 +6,19 @@ export default function HackingCampañaPolitica() {
     <NavBarServices/>
     <div className="h-screen w-full bg-black">
       <div className="lg:h-[30%] xl:h-[40%] flex justify-center items-center">
-        <div className="text-center text-[#8A0026] font-extrabold mt-14">
-          <h1 className="uppercase text-6xl">
+        <div className="text-center text-[#8A0026] font-extrabold mt-20 mb-14 lg:mb-0 lg:mt-14">
+          <h1 className="uppercase text-5xl lg:text-6xl">
             Hacking a campaña<br />
-            <p className="text-5xl">politica</p>
+            <p className="text-4xl lg:text-5xl">politica</p>
           </h1>
         </div>
       </div>
 
       <section
-        className="lg:h-[70%] xl:h-[60%] w-full grid grid-cols-2 lg:pl-[2rem] xl:pl-[4rem] 2xl:pl-[14rem]"
+        className="lg:h-[70%] xl:h-[60%] w-full grid lg:grid-cols-2 lg:pl-[2rem] xl:pl-[4rem] 2xl:pl-[14rem]"
       >
-        <div className="flex justify-end">
-          <div className="">
+        <div className="flex justify-center lg:justify-end">
+          <div className="w-[20rem] lg:w-full">
             <div className="border-4 border-[#8A0026]">
               <h1 className="text-white lg:text-[1.6rem] xl:text-[1.9rem] font-extrabold p-3">
                 Intento de comprometer la seguridad de una campaña electoral o
@@ -38,7 +38,7 @@ export default function HackingCampañaPolitica() {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-12 h-12"
+                  className="w-12 h-12"
                 >
                   <path
                     stroke-linecap="round"
@@ -51,7 +51,7 @@ export default function HackingCampañaPolitica() {
           </div>
         </div>
 
-        <div className="h-full">
+        <div className="h-full hidden lg:flex">
           <div className="h-full flex justify-end items-end absolute top-0 right-0">
             <img
               className="lg:w-[29rem] xl:w-[36rem] lg:h-[39rem] xl:h-[44rem] 2xl:h-[48rem] 2xl:w-[39rem]"

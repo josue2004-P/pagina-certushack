@@ -7,17 +7,17 @@ export default function CCTV() {
     <div className="h-screen w-full bg-black">
       <div className="h-[40%] flex justify-center items-center">
         <div className="text-center text-[#8A0026] font-extrabold mt-14">
-          <h1 className="uppercase text-6xl">
+          <h1 className="uppercase text-5xl lg:text-6xl">
             CCTV (Circuito CERRADO DE <br />
             TELEVISION)
           </h1>
         </div>
       </div>
 
-      <div className="h-[60%] grid grid-cols-2 lg:ml-[4rem] xl:pl-[5rem]">
+      <div className="h-[60%] grid lg:grid-cols-2 lg:ml-[4rem] xl:pl-[5rem]">
 
-        <div className=" w-full flex justify-end ">
-          <div className="">
+        <div className=" w-full flex justify-center lg:justify-end ">
+          <div className="w-[20rem] lg:w-full">
             <div className="w-full border-4 border-[#8A0026] mb-6">
               <h1 className="text-white lg:text-[1.5rem] xl:text-[1.9rem] font-extrabold p-3">
                 Sistema de videovigilancia en las instalaciones fisicas de la
@@ -52,7 +52,7 @@ export default function CCTV() {
           </div>
         </div>
 
-        <div className="h-full">
+        <div className="h-full hidden lg:flex">
           <div className="h-full flex justify-center items-start  px-[1.5rem]">
 
             <img className=" lg:w-[30rem] lg:h-[25rem]  xl:w-[30rem] xl:h-[25rem] 2xl:w-[39rem] 2xl:h-[20rem] " src="../img/7.png" alt=""/>

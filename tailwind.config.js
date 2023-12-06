@@ -10,6 +10,9 @@ export default {
       'xl': "1280px",
       '2xl': "1536",
 
+      'hac1': "584px",
+      'hac2': "580px",
+
 
       // para celulares de eduardin
     },
