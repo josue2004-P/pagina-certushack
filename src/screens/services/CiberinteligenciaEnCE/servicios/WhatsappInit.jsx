@@ -14,7 +14,7 @@ export default function WhatsappInit() {
         </div>
 
         <div className="flex justify-center">
-        <div className="w-[80%] sm:w-[70%] md:w-[55%] lg:w-full grid grid-cols-1 lg:grid-cols-2 lg:h-[70%] lg:pl-20 xl:pl-[10rem] mt-10 lg:mt-0">
+        <div className="w-[80%] sm:w-[70%] md:w-[55%] lg:w-full xl:w-[90%] 2xl:w-[80%] grid grid-cols-1 lg:grid-cols-2 lg:h-[70%] lg:pl-20 xl:pl-[10rem] mt-10 lg:mt-0">
           <div className="lg:h-[70%] w-full flex justify-end ">
             <div className="">
               <div className=" w-full border-4 border-[#8A0026] mb-6">

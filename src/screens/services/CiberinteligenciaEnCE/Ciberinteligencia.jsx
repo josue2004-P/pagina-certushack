@@ -22,12 +22,12 @@ export default function Ciberinteligencia() {
           <div className="grid w-full h-full grid-cols-1 lg:grid-cols-2">
             <div className="h-full flex justify-start lg:justify-end">
               <div>
-                <div className="flex items-center">
-                  <h1 className=" text-[14px] xs:text-[15.54px] sm:text-[19px] xl:text-2xl text-white font-extrabold p-[17.6px] xs:py-[16.1px] xs:p-[16px] sm:p-[.95rem] lg:p-[.87rem] bg-gray-600 lg:pr-12">
+                <div className="flex items-center w-[90%] bg-gray-600 pl-4 justify-between py-1 lg:w-fit">
+                  <h1 className=" text-xl sm:text-[19px] xl:text-2xl text-white font-extrabold ">
                     OSINT (OPEN SOURCE INTELLIGENCE)
                   </h1>
                   <Link
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                    className="text-2xl text-[#8A0026] font-extrabold lg:pl-2"
                     to="/services/osint"
                   >
                     <svg
@@ -52,12 +52,12 @@ export default function Ciberinteligencia() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 sm:pr-12">
+                <div className="flex items-center mt-4 w-[90%] bg-gray-600 pl-4 justify-between lg:w-fit">
+                  <h1 className="text-xl text-white font-extrabold ">
                     WhatsApp Init
                   </h1>
                   <Link
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                    className="text-2xl text-[#8A0026] font-extrabold lg:pl-2"
                     to="/services/whatsappInit"
                   >
                     <svg
@@ -82,12 +82,12 @@ export default function Ciberinteligencia() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 sm:pr-12">
+                <div className="flex items-center mt-4 w-[90%] bg-gray-600 pl-4 justify-between lg:w-fit">
+                  <h1 className="text-xl text-white font-extrabold">
                     Analisis de sitios web
                   </h1>
                   <Link
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                    className="text-2xl text-[#8A0026] font-extrabold lg:pl-2"
                     to="/services/analisisSTW"
                   >
                     <svg
@@ -112,12 +112,12 @@ export default function Ciberinteligencia() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className="text-[1.35rem] xs:text-2xl text-white font-extrabold p-[11.7px] xs:p-3 bg-gray-600 sm:pr-12">
+                <div className="flex items-center mt-4 w-[90%] bg-gray-600 pl-4 justify-between py-1 lg:w-fit ">
+                  <h1 className="text-xl xs:text-2xl text-white font-extrabold ">
                     Evaluacion de amenazas
                   </h1>
                   <Link
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                    className="text-2xl text-[#8A0026] font-extrabold lg:pl-2"
                     to="/services/evalucionAmenazas"
                   >
                     <svg

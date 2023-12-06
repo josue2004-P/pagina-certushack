@@ -7,20 +7,22 @@ export default function Ciberseguridad() {
       <div className="h-screen w-full bg-black">
         <div className="h-[40%] flex justify-center items-center">
           <div className="text-center text-[#8A0026] font-extrabold mt-10">
-            <h1 className="uppercase text-[2.2rem] xs:text-4xl sm:text-6xl">Ciberseguridad</h1>
+            <h1 className="uppercase text-[2.2rem] xs:text-4xl sm:text-6xl">
+              Ciberseguridad
+            </h1>
           </div>
         </div>
 
         <div className="h-[60%] grid-cols-1 lg:grid-cols-2 grid  lg:pl-[4rem]">
           <div className="h-full w-full flex justify-start lg:justify-end ">
             <div>
-              <div className="flex items-center">
-                <h1 className="xs:text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+              <div className="flex items-center  w-[90%] bg-gray-600 pl-4 justify-between lg:w-fit">
+                <h1 className="text-xl text-white font-extrabold ">
                   Creacion de infraestructura T.I.
                 </h1>
                 <Link
                   to="/services/creacionITI"
-                  className="text-2xl p-2 xs:p-0 text-[#8A0026] font-extrabold bg-gray-600"
+                  className="text-2xl p-2 xs:p-0 text-[#8A0026] font-extrabold lg:pl-2"
                   href="servicios8.html"
                 >
                   <svg
@@ -45,13 +47,14 @@ export default function Ciberseguridad() {
                 </Link>
               </div>
 
-              <div className="flex items-center mt-4">
-                <h1 className="   xs:text-xl xl:text-2xl text-white font-extrabold p-3 bg-gray-600 xs:pr-12">
+              <div className="flex items-center mt-4  w-[90%] bg-gray-600 pl-4 justify-between md:w-fit py-1 ">
+                <h1 className="text-xl xl:text-2xl text-white font-extrabold ">
+
                   CCTV (Circuito Cerrado de Television)
                 </h1>
                 <Link
                   to="/services/cctv"
-                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[8px]"
+                  className="text-2xl text-[#8A0026] font-extrabold md:pl-2"
                   href="servicios9.html"
                 >
                   <svg

@@ -15,12 +15,12 @@ export default function Hacking() {
           <div className="grid grid-cols-1 lg:grid-cols-2 h-full w-full lg:pl-[5rem] ">
             <div className="flex justify-end ">
               <div>
-                <div className="flex items-center">
-                  <h1 className="text-2xl text-white font-extrabold p-3 bg-gray-600 pr-12">
+                <div className="flex items-center justify-between bg-gray-600 pl-4 w-[90%] sm:w-[70%] lg:w-fit">
+                  <h1 className="text-2xl text-white font-extrabold">
                     Ciberespionaje
                   </h1>
                   <Link
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                    className="text-2xl text-[#8A0026] font-extrabold lg:pl-4"
                     to="/services/ciberespionaje"
                   >
                     <svg
@@ -45,12 +45,12 @@ export default function Hacking() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className=" xs:text-lg text-white font-extrabold p-2 xs:p-3 bg-gray-600  hac2:p-[14px] ">
+                <div className="flex items-center mt-4 justify-between bg-gray-600 pl-4 w-[90%]  sm:w-[80%] lg:w-fit">
+                  <h1 className=" xs:text-lg text-white font-extrabold">
                     Ataques de denegacion de servicio a aplicaciones web
                   </h1>
                   <Link
-                    className="text-xl text-[#8A0026] font-extrabold bg-gray-600 p-[3.7px] xs:p-[.73rem] hac2:p-[0px] 2xl:p-0"
+                    className="text-xl text-[#8A0026] font-extrabold lg:pl-4"
                     to="/services/ataquesdenagacion"
                   >
                     <svg
@@ -75,17 +75,17 @@ export default function Hacking() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className="text-[1.24rem] text-white font-extrabold p-3 bg-gray-600 hac1:p-[13px] ">
+                <div className="flex items-center mt-4 bg-gray-600 justify-between pl-4 w-[90%]  sm:w-[80%] lg:w-fit">
+                  <h1 className="text-[1.24rem] text-white font-extrabold">
                     Manipulacion de redes sociales y desinformacion
                   </h1>
                   <Link
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600 p-[13.3px] hac1:p-0  "
+                    className="text-2xl text-[#8A0026] font-extrabold lg:pl-4"
                     to="/services/manipulacionRedes"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
+                      fill="none" 
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
@@ -105,13 +105,13 @@ export default function Hacking() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className="text-[1.2rem]  text-white font-extrabold  p-[13.7px] xs:p-[13.3px] bg-gray-600 ">
+                <div className="flex items-center mt-4 justify-between bg-gray-600 pl-4 w-[90%]  sm:w-[70%]">
+                  <h1 className="text-xl  text-white font-extrabold  ">
                     Hacking de aplicaciones web
                   </h1>
                   <Link
                     to="/services/hackingAPW"
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                    className="text-2xl text-[#8A0026] font-extrabold"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -135,13 +135,13 @@ export default function Hacking() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className="text-xl xs:text-2xl text-white font-extrabold p-[13.7px] xs:p-3 bg-gray-600 pr-12">
+                <div className="flex items-center w-[90%] justify-between mt-4 pl-4 bg-gray-600  sm:w-[60%] lg:w-fit ">
+                  <h1 className="text-xl xs:text-2xl text-white font-extrabold">
                     Robo de informacion
                   </h1>
                   <Link
                     to="/services/roboInformacion"
-                    className="text-2xl text-[#8A0026] font-extrabold bg-gray-600"
+                    className="text-2xl text-[#8A0026] font-extrabold lg:pl-4"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -165,13 +165,13 @@ export default function Hacking() {
                   </Link>
                 </div>
 
-                <div className="flex items-center mt-4">
-                  <h1 className="text-[1.22rem] text-white font-extrabold p-[13px] bg-gray-600 xs:pr-12">
+                <div className="flex items-center justify-between w-[90%] pl-4 py-1 mt-4 bg-gray-600  sm:w-[70%] lg:w-fit">
+                  <h1 className="text-xl mr-4 text-white font-extrabold ">
                     Hacking a capaña politica
                   </h1>
                   <Link 
                   to="/services/hackingcampañapolitica"
-                  className="text-2xl text-[#8A0026] font-extrabold bg-gray-600">
+                  className="text-2xl text-[#8A0026] font-extrabold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

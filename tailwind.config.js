@@ -8,11 +8,11 @@ export default {
       'md': "768px",
       'lg':"1024px",
       'xl': "1280px",
-      '2xl': "1536",
+      '2xl': "1536px",
 
       'hac1': "584px",
       'hac2': "580px",
-
+      'cib1': "429px",
 
       // para celulares de eduardin
     },
