@@ -9,11 +9,11 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="lg:flex fixed lg:h-[10%] w-full justify-end text-white">
-      <div className="bg-black ">
+    <nav className="lg:flex fixed h-12 z-10 bg-black w-full justify-end text-white">
+      <div className="flex items-center pl-4 h-full ">
         <button
           onClick={toggleMenu}
-          className="text-white px-10 py-5  lg:hidden"
+          className="text-white lg:hidden"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,23 +32,23 @@ export default function NavBar() {
         </button>
       </div>
       <ul
-        className={`bg-black lg:flex justify-end gap-9 p-5 lg:pr-[10rem] font-extrabold text-2xl w-full ${
+        className={`lg:flex bg-black pl-4 pb-4 lg:pt-4 justify-end gap-9  lg:pr-[10rem] font-medium text-xl w-full ${
           isMenuOpen ? "hidden" : ""
         }`}
       >
         <li>
           <Link to="/" className="" href="index.html">
-            INICIO
+            Inicio
           </Link>
         </li>
         <li>
-          <Link to="/services">SERVICIOS</Link>
+          <Link to="/services">Servicios</Link>
         </li>
         <li>
-          <a href="">NOSOTROS</a>
+          <a href="">Nosotros</a>
         </li>
         <li>
-          <Link to="/contacto">CONTACTO</Link>
+          <Link to="/contacto">Contacto</Link>
         </li>
       </ul>
     </nav>
