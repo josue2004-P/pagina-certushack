@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className=" h-screen  w-full ">
       <NavBar />
-      <div className=" flex justify-center items-center h-full">
+      <div className=" flex justify-center items-center h-full pt-10">
         <div
           className="w-full h-full lg:w-[90%] lg:h-[85%] lg:rounded-3xl  "
           id="home1"

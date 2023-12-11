@@ -20,10 +20,11 @@ export default function Services() {
       <div className="flex w-full h-full items-center ">
         <div className="flex w-full  h-full justify-center items-center ">
           <div className="grid md:grid-cols-2 min-[1121px]:grid-cols-3 gap-y-6 w-full xl:w-[90%] 2xl:w-[90%] ">
+
             <div className="flex justify-center">
               <div
                 id="card1"
-                className="bg-black w-[90%] relative md:w-[22rem] md:h-[25rem] 2xl:w-[27rem] 2xl:h-[21rem] pr-2"
+                className="bg-black w-[90%] h-[26rem] relative md:w-[22rem] md:h-[25rem] 2xl:w-[27rem] 2xl:h-[21rem] pr-2"
               >
                 <div className="text-white pt-6 px-6">
                   <svg
@@ -122,7 +123,7 @@ export default function Services() {
                   </p>
                 </div>
 
-                <div className="w-full  md:absolute  bottom-[1rem] right-0 flex justify-end items-end mb-4 lg:mb-0 mt-4 pr-4">
+                <div className="w-full  absolute  bottom-[1rem] right-0 flex justify-end items-end mb-4 lg:mb-0 mt-4 pr-4">
                   <div className="mr-1">
                     <p className="text-lg text-white font-medium">Learn more</p>
                   </div>
@@ -147,7 +148,7 @@ export default function Services() {
             <div className="flex justify-center">
               <div
                 id="card1"
-                className="bg-black relative w-[90%] md:w-[22rem] 2xl:w-[27rem]  md:h-[25rem]  2xl:h-[21rem] pr-2"
+                className="bg-black relative w-[90%] h-[26rem] md:w-[22rem] 2xl:w-[27rem]  md:h-[25rem]  2xl:h-[21rem] pr-2"
               >
                 <div className="text-white pt-6 px-6">
                   <svg
@@ -244,7 +245,7 @@ export default function Services() {
                     WhatsApp Init.
                   </p>
                 </div>
-                <div className="w-full md:absolute  bottom-[1rem] right-0  flex justify-end items-end mb-4 lg:mb-0  mt-4 pr-4">
+                <div className="w-full absolute  bottom-[1rem] right-0  flex justify-end items-end mb-4 lg:mb-0  mt-4 pr-4">
                   <div className="mr-1">
                     <p className="text-lg text-white font-medium">Learn more</p>
                   </div>
@@ -269,7 +270,7 @@ export default function Services() {
             <div className="flex justify-center">
               <div
                 id="card1"
-                className="bg-black relative w-[90%]  md:w-[22rem] 2xl:w-[27rem]  md:h-[25rem]  2xl:h-[21rem] h-[21rem] pr-2"
+                className="bg-black relative w-[90%] h-[26rem] md:w-[22rem] 2xl:w-[27rem]  md:h-[25rem]  2xl:h-[21rem] h-[21rem] pr-2"
               >
                 <div className="text-white pt-6 px-6">
                   <svg
@@ -366,7 +367,7 @@ export default function Services() {
                     Seguridad en redes sociales.
                   </p>
                 </div>
-                <div className="w-full md:absolute bottom-[1rem] right-0 flex justify-end items-end mb-4 lg:mb-0 mt-4 pr-4">
+                <div className="w-full absolute bottom-[1rem] right-0 flex justify-end items-end mb-4 lg:mb-0 mt-4 pr-4">
                   <div className="mr-1">
                     <p className="text-lg text-white font-medium">Learn more</p>
                   </div>
