@@ -58,9 +58,9 @@ export default function Contactanos() {
               </div>
 
               <div className="mt-5 lg:mt-10 flex justify-center">
-                <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-100   bg-gradient-to-br from-[#8A0026] to-[#000000]">
-                  <span className="relative px-5 py-2.5 transition-all ease-in duration-85 bg-black  hover:bg-black">
-                    Conoce Mas...
+                <button className="relative inline-flex items-center rounded-lg justify-center p-0.5 mb-1 me-1 overflow-hidden text-sm font-medium text-gray-100   bg-gradient-to-br from-[#8A0026] to-[#000000]">
+                  <span className="relative px-4 py-1 rounded-md transition-all ease-in duration-85 bg-black  hover:bg-black">
+                    Enviar
                   </span>
                 </button>
               </div>

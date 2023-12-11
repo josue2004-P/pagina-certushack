@@ -10,7 +10,7 @@ export default function Services() {
         <div className="">
           <div className="mb-10 mt-10 lg:mt-0 flex text-xs text-gray-100 font-medium">
             <Link to="/">Home</Link>
-            <p>/</p>
+            <p className="mx-1">/</p>
             <Link to="/services">Servicios</Link>
           </div>
           <div>

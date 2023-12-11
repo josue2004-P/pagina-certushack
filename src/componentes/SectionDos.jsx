@@ -6,7 +6,7 @@ export default function SectionDos() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-[6rem]">
         
         <div className="flex justify-center rounded-xl" id="home1">
-          <div className="w-[13rem] h-[9rem] ">
+          <div className="w-[13rem] h-[11rem] ">
             <div className="flex justify-center  p-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ export default function SectionDos() {
               </svg>
             </div>
             <div className="flex justify-center">
-              <h1 className="text-xl font-bold text-gray-100">
+              <h1 className="text-2xl text-center font-extrabold text-gray-100">
                 Estrategias Solidas
               </h1>
             </div>
@@ -29,7 +29,7 @@ export default function SectionDos() {
         </div>
 
         <div className="flex justify-center rounded-xl" id="home1">
-          <div className="w-[13rem] h-[9rem]">
+          <div className="w-[13rem] h-[11rem]">
             <div className="flex justify-center p-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,13 +47,13 @@ export default function SectionDos() {
               </svg>
             </div>
             <div className="flex justify-center">
-              <h1 className="text-xl font-bold text-gray-100">Proteccion de imagen</h1>
+              <h1 className="text-2xl text-center font-extrabold text-gray-100">Proteccion de imagen</h1>
             </div>
           </div>
         </div>
 
         <div className="flex justify-center rounded-xl" id="home1">
-          <div className=" w-[16rem] h-[9rem] ">
+          <div className=" w-[13rem] h-[11rem] ">
             <div className="flex justify-center p-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ export default function SectionDos() {
               </svg>
             </div>
             <div className="flex justify-center">
-              <h1 className="text-xl font-bold text-gray-100">Seguridad Garantizada</h1>
+              <h1 className="text-2xl text-center font-extrabold text-gray-100">Seguridad Garantizada</h1>
             </div>
           </div>
         </div>

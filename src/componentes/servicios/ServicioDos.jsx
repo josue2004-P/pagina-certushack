@@ -10,7 +10,7 @@ export default function ServicioDos() {
             alt="mockup"
           />
         </div>
-        <div class="ml-4 place-self-center lg:col-span-7">
+        <div class="lg:ml-4 place-self-center lg:col-span-7">
           <h1 class="max-w-2xl mb-4 text-4xl text-transparent bg-clip-text bg-gradient-to-r to-[#8A0026] from-[#800020] font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-100 ">
             CIBERESPIONAJE
           </h1>

@@ -55,18 +55,10 @@ export default function NavBar() {
             <li>
               <a
                 href="#"
-                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                class="block py-2 px-3 text-[#8a0026] md:p-0 "
                 aria-current="page"
               >
                 Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 px-3 text-gray-100 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 "
-              >
-                About
               </a>
             </li>
             <li>
